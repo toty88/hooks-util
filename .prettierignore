@@ -1,0 +1,12 @@
+.husky/
+.vscode/
+coverage/
+node_modules/
+.gitignore
+.lintstagedrc
+commitlint.config.ts
+eslint.config.js
+index.html
+package.json
+tsconfig.json
+yarn.lock
