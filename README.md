@@ -5,5 +5,6 @@ Includes
 - useDebounce
 - useThrottle
 - useCounter
+- useEvent
 - useSafeLayout
 ```
