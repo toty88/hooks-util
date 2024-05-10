@@ -1,12 +1,13 @@
 {
-  "name": "hooks-utils",
+  "name": "simple-hooks-util",
   "version": "0.0.1",
+  "private": false,
   "type": "module",
-  "main": "./dist/hooks-utils.umd.cjs",
+  "main": "./dist/hooks-util.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/hooks-utils.js",
-      "require": "./dist/hooks-utils.umd.cjs"
+      "import": "./dist/hooks-util.js",
+      "require": "./dist/hooks-util.umd.cjs"
     }
   },
   "publishConfig": {
