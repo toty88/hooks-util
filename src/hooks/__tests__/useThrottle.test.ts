@@ -18,7 +18,7 @@ describe('useThrottle', () => {
   it("Memoized callback wasn't used", () => {
     const fn = vi.fn()
 
-    const { result } = renderHook(() => useThrottle(fn, 200))
+    renderHook(() => useThrottle(fn, 200))
     vi.advanceTimersByTime(201)
     expect(fn).not.toHaveBeenCalled()
   })
