@@ -7,7 +7,8 @@
   "exports": {
     ".": {
       "import": "./dist/hooks-util.js",
-      "require": "./dist/hooks-util.umd.cjs"
+      "require": "./dist/hooks-util.umd.cjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "publishConfig": {
