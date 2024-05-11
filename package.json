@@ -1,6 +1,6 @@
 {
   "name": "simple-hooks-util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "type": "module",
   "main": "./dist/hooks-util.umd.cjs",
@@ -33,6 +33,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sorting-utils": "^0.0.8"
+  },
+  "peerDependencies": {
     "sorting-utils": "^0.0.8"
   },
   "devDependencies": {
