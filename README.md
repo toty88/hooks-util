@@ -43,44 +43,40 @@ const App = () => {
 
 In the project directory, you can run:
 
-yarn dev
+```yarn dev```
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in your browser.
 
-yarn build
+```yarn build```
 Builds the app for production to the dist folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-yarn preview
+```yarn preview```
 Serves the production build locally.
 
-yarn prettier
+```yarn prettier```
 Formats the code using Prettier.
 
-yarn lint
+```yarn lint```
 Lints the project using ESLint.
 
-yarn lint-fix
+```yarn lint-fix```
 Fixes linting issues in the project.
 
-yarn check:types
+```yarn check:types```
 Checks the project for type errors using TypeScript.
 
-yarn prepare
-Sets up Husky for Git hooks.
-
-yarn ctest
+```yarn ctest```
 Runs tests with coverage using Vitest.
 
-yarn test
+```yarn test```
 Runs tests in watch mode using Vitest.
 
-yarn lint-staged
+```yarn lint-staged```
 Runs lint-staged to lint files staged for commit.
 
-yarn mtest
+```yarn mtest```
 Runs mutation tests using Stryker.
-
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
