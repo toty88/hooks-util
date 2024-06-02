@@ -25,7 +25,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "tests", "components"],
-  "exclude": ["node_modules", "coverage", ".vscode", "reports"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "tests"],
+  "exclude": ["node_modules", "coverage", ".vscode", "reports"]
 }

@@ -1,13 +1,14 @@
 {
-  "name": "hooks-utils",
-  "private": true,
-  "version": "0.0.0",
+  "name": "simple-hooks-util",
+  "version": "0.0.4",
+  "private": false,
   "type": "module",
-  "main": "./dist/hooks-utils.umd.cjs",
+  "main": "./dist/hooks-util.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/hooks-utils.js",
-      "require": "./dist/hooks-utils.umd.cjs"
+      "import": "./dist/hooks-util.js",
+      "require": "./dist/hooks-util.umd.cjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "publishConfig": {
@@ -33,7 +34,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sorting-utils": "0.0.7"
+    "sorting-utils": "^0.0.8"
+  },
+  "peerDependencies": {
+    "sorting-utils": "^0.0.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.2",

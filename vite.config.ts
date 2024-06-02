@@ -9,7 +9,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'hooks-utils',
+      name: 'hooks-util',
+      fileName: 'hooks-util',
       formats: ['es', 'umd']
     },
     rollupOptions: {
